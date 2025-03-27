@@ -11,11 +11,18 @@ package mx.itson.castor.buisiness;
 public class Temperatura {
           
     /**
-     * 
-     * @param centigrados
-     * @return 
+     * Funionara para convertir el valor agregado de grados centigrados a farenheit
+     * @param centigrados La cantidad de grados centigragos que planeamos convertir
+     * @return  Numero convertido a farenheit tras haber realizado la operacion matematica que se le asigno a centigrados
      */
-    public double convertirGrados(double centigrados){
-       return centigrados *(9/5)+ 32 ;  
+    public static double convertirGrados(double centigrados){
+       return centigrados * 1.8 + 32 ;  
+    
+    public static double AreaTriangulo (double area){
+       return area * (b*h)/2 ;  
+      
+      
+       
+       
     }
 }
